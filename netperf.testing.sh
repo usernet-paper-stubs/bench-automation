@@ -9,6 +9,8 @@ sudo killall netserver
 netserver -p 8864
 "
 
+
+
 # start netperf
 ssh usernet-vm2 "
 netperf -H 172.16.1.101 -p 8864 -D 1 -l 100 -P 0
